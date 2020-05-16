@@ -1,0 +1,724 @@
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display:wght@500;600&display=swap"rel="stylesheet" > * {}
+
+
+.body {
+    width: 1440px;
+     !important !
+}
+
+.header-1 {
+    width: 1440px;
+    height: 72px;
+    background-color: #3D8385;
+
+
+}
+
+
+.total {
+    width: 1440px;
+
+
+}
+
+h1 {
+    color: #F4B9B5;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    float: left;
+    margin-left: 34;
+    margin-top: -1;
+    margin-bottom: 0;
+    
+}
+
+.menu ul {
+
+    float: right;
+     !important
+}
+
+
+.menu ul li {
+
+    float: left;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    z-index: 4;
+
+}
+
+.menu ul li a:hover {
+
+    color: #F4B9B5;
+
+
+}
+
+.menu ul li a {
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 24px;
+    display: block;
+    z-index: 4;
+     !important !
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #3D8385;
+    padding: 1px;
+    border-top: 1px solid #F4B9B5;
+    z-index: 4;
+     !important !
+}
+
+.menu ul li:hover ul {
+    display: block;
+    z-index: 4;
+     !important !
+}
+
+.menu ul ul li a {
+    padding: 35px 24px;
+    color: #FFF;
+    z-index: 4;
+     !important !
+}
+
+.menu ul li ul li a:hover {
+    padding: 35px 24px;
+    color: #F4B9B5;
+    z-index: 4 !important !
+}
+
+
+
+
+.slideshowcontainer {
+    width: 1440px;
+    margin-top: 20px
+}
+
+.mySlides fade {
+
+    align-content: center;
+    margin: 10px;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 3px;
+    margin-top: -17px;
+    color: white;
+    font-weight: 4px;
+    font-size: 28px;
+    transition: 0.3s ease;
+    user-select: none;
+    background-color: rgba(61, 131, 133, 0.3);
+    border-radius: 80px;
+    height: 30px;
+    width: 30px;
+    object-position: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    text-align-last: center;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+    right:480;
+}
+
+.prev {
+    left: 40;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background: #3D8385
+}
+
+
+/* The dots/bullets/indicators */
+.button {
+    background-color: ;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 400px 20px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+}
+
+.text-align:center .active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity:
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bar {
+    background-color: #3D8385;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 1440px;
+    height: 72px;
+}
+
+/* Style the links inside the navigation bar */
+.bar a {
+    float: left;
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    left: 34px;
+    display: block;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 34;
+    margin-top: -1;
+    margin-top: 30
+}
+
+/* Change the color of links on hover */
+.bar a:hover {
+    background-color: #3D8385;
+    color: #F4B9B5;
+}
+
+
+.alinhado {
+    font-size: 40px;
+    color: white;
+    float: left;
+    margin-top: -15
+}
+
+.alinhado:hover {
+    color: #F4B9B5;
+}
+
+
+.header-2 {
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+
+.header-3 {
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 85px;
+
+}
+
+.total {
+    width: 1440px 100%;
+    height: 1000px 100%;
+    position: relative;
+    display: block;
+    font-size-adjust: auto;
+}
+
+.text1 {
+    width: 600;
+
+    left: 50px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #3D8385;
+
+}
+
+.text2 {
+    width: 600;
+    top: -59px;
+    left: 800px;
+    position: absolute;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 2.3;
+    image-resolution: from-image;
+}
+
+.text5 {
+    width: 900;
+    top: 450px;
+    left: 50px;
+    position: absolute;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #3D8385;
+}
+
+h2 {
+    color: #F4B9B5;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 30px;
+    left: 100px;
+    font-family: 'Lato', sans-serif, bold;
+}
+
+h3 {
+    color: #F4B9B5;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 80px;
+
+    font-family: 'Lato', sans-serif, bold;
+}
+
+p1 {
+
+    left: 120px;
+
+}
+
+.text2 ul {
+    list-style: none;
+    color: #3D8385;
+
+}
+
+.text2 ul svg {
+    resize: both 100%
+}
+
+
+
+.nivel {
+
+    left: 100px
+}
+
+.text3 {
+    width: 49;
+    height: 71;
+    position: absolute;
+    top: 100px;
+    left: 1035px;    align-content: center;
+
+
+}
+
+
+.barra {
+    width: 1400;
+    top: 150px;
+    left: 2800px;
+    position: absolute;
+    padding: 0;
+
+}
+
+
+
+.simbolo {
+
+    position: absolute;
+    top: 750px;
+    left: 60px;
+    align-content: center;
+
+}
+
+.simbolo2 {
+
+    position: absolute;
+    top: 690px;
+    left: 60px;
+    align-content: center;
+
+}
+
+.simbolo4 {
+
+    position: absolute;
+    top: 100px;
+    left: 1380px;
+    align-content: center;
+
+}
+
+.simbolo4 {
+
+    position: absolute;
+    top: 100px;
+    left: 1380px;
+    align-content: center;
+
+}
+
+.simbolo5 {
+
+    position: absolute;
+    top: 100px;
+    left: 1380px;
+    align-content: center;
+
+}
+
+.simbolo6 {
+
+    position: absolute;
+    top: 10px;
+    left: 1380px;
+    align-content: center;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.main {
+    width: 1440px;
+    left: 25px;
+}
+
+
+.TXT {
+
+    font-size: 15px;
+    font-style: bold;
+    margin-top: 15px;
+    left: 25px;
+    font-family: 'Lato', sans-serif, bold;
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: #F4B9B5;
+
+}
+
+.TXT:hover {
+
+    color: #3D8385;
+}
+
+
+
+h4 {
+    color: #3D8385;
+    font-size: 10px;
+    font-style: bold;
+    margin-top: 0px;
+    left: 100px;
+    font-family: 'Lato', sans-serif, bold;
+    text-align: center;
+    margin-bottom: 0px
+}
+
+.row {
+    width: 1440px;
+    height: 1000px;
+    margin 0;
+    left: 15px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 1px;
+    left: 10px;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 275px;
+    left: 10px;
+    top: 125px;
+    margin-top: 250px;
+    margin-left: 60px
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    left: 25px;
+    margin-top: 250px;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 1;
+    left: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.UP1 {
+
+    width: 164
+        PX;
+    height: 66PX;
+    float: left;
+    margin-top: 120px;
+    margin-left: 90
+
+
+}
+
+.UP5 {
+
+    width: 164
+        PX;
+    height: 66PX;
+    float: left;
+    margin-top: 120px;
+    margin-left: 90
+
+
+}
+
+
+.container2{
+    width: 400px; 
+    height: 30px;
+    position: relative;
+    float: right;
+    bottom: -60;
+    right: -10;
+}
+
+/* Next & previous buttons */
+.prev1,
+.next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 290;
+    width: auto;
+    padding: 1px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+    right: -280;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev1 {
+    left: 40;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev1:hover,
+.next1:hover {
+
+    color: #3D8385;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+
+
+.UB1 {
+    width: 1684PX;
+    height: 856PX;
+    padding: 2100 500;
+
+
+}
+
+
+
+.container3{
+    width: 400px; 
+    height: 30px;
+    position: relative;
+    float: right;
+    bottom: -60;
+    right: -10;
+}
+
+
+
+.contactos {
+
+    color: #3D8385;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    margin-top: 34;
+    margin-left: 60;
+    margin-right: 1500;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    /* Make sure that padding and width stays in place */
+    resize: vertical;
+
+
+}
+
+input[type=submit] {
+    background-color: #3D8385;
+    ;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10;
+}
+
+
+.text4 {
+    width: 49;
+    height: 71;
+    position: absolute;
+    top: 100px;
+    left: 860px;    align-content: center;
+
+
+}
+
+
