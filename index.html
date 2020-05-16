@@ -1,0 +1,159 @@
+<html>
+<title>Mariana Taveira</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="Mariana%20Taveira%20(@marianataveira28)%20%E2%80%A2%20fotos%20e%20v%C3%ADdeos%20do%20Instagram.webloc">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+
+    <title> Portfolio- Mariana Taveira</title>
+</head>
+
+
+
+
+<header class="menu-principal">
+
+    <main>
+
+        <div class="header-1">
+
+
+
+            <h1> Portfolio </h1>
+
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="aboutme.html">about</a></li>
+
+
+
+                    <li><a href="projects.html"> projects</a>
+                        <ul>
+                            <li> <a href="astrid.html">ASTRID</a></li>
+                            <li> <a href="upack.html">UPACK</a></li>
+                            <li> <a href="urbes.html">URBES</a></li>
+                            <li> <a href="bowling.html">BOWLING</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </main>
+</header>
+
+
+
+
+
+
+
+
+<div class="slideshowcontainer">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="img/slide1.jpg" style="width:1440px" height="755">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="img/slide2.jpg" style="width:1440px" height="755">
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/slide3.jpg" style="width:1440px" height="755">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/slide4.jpg" style="width:1440px" height="755">
+        </div>
+
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+</div>
+
+
+
+
+
+
+<body>
+
+    <div class="bar">
+        <a href="contacts.html">Contacts</a>
+        <a href="https://www.instagram.com/marianataveira28/"><i class="fab fa-instagram alinhado"></i></a>
+        <a href="https://www.facebook.com/mariana.taveira.92"><i class="fab fa-facebook alinhado"></i></a>
+
+
+
+    </div>
+
+
+
+
+</body>
